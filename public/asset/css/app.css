@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.br2.animado{
+    opacity: 0;
+}
+.br1.br2.animado{
+    transform:  rotate(45deg) translate(9px, 8px);
+    transform-origin: 0% 100%;
+}
